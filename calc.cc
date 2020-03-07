@@ -67,7 +67,7 @@ int main(int argc, char * argv[]){
     }
 
     //income_appreciation
-    cout << "Expect rate of deposit growth (how much more do you plan to contribute each year?): ";
+    cout << "Expect rate of deposit growth (how much more do you plan to contribute each year, as a percent in decimal form?): ";
     while(!(cin >> income_appreciation)){
         string str;
         cin.clear();
